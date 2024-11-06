@@ -60,7 +60,7 @@ a:active {
 }
 
 .card-category {
-    color: color-primary;
+    color: var(--color-primary);
 }
 
 .section-header {
