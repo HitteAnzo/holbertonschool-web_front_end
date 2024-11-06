@@ -45,7 +45,7 @@ html {
 }
 
 body {
-    color: var(--text-color);
+    color: text-color;
     font-family: var(--font-family-base); 
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
@@ -75,16 +75,16 @@ a:active {
 }
 
 .card-category {
-    color: var(--color-primary);
+    color: color-primary;
 }
 
-.section{
+.section {
     padding: var(--section-padding);
 }
 
 .section-header {
     text-align: var(--section-header-align);
-    text-align: var(--section-footer-align);
+    padding: var(--section-header-padding);
 }
 
 .section-body {
@@ -105,7 +105,7 @@ a:active {
 }
 
 .section-tagline {
-    color: var(--color-primary);
+    color: color-primary;
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
